@@ -21,5 +21,3 @@ for vaga in textoVagas:
     qntVagas += int(re.sub('VAGA', '', vaga))
 
 print("Quantidade de vagas hoje: " + str(qntVagas))
-
-#print (site(text=re.compile('VAGA')))
